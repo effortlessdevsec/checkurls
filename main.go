@@ -52,7 +52,7 @@ defer wg.Done()
 }
 
 
-fmt.Println(resp.StatusCode,"    " ,http.StatusText(resp.StatusCode),"        " ,val2)	
+fmt.Println(resp.StatusCode,"  " ,http.StatusText(resp.StatusCode),"  " ,val2)	
 
 	}
 	
